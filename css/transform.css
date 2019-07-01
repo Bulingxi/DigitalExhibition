@@ -1,0 +1,30 @@
+/*----about的动画效果----*/
+.about_no .main_pic{
+	right: -520px;
+}
+.about_no>.main_text{
+	top: -300px;
+	opacity: 0;
+}
+.about_no>.main_jour{
+	bottom: -300px;
+	opacity: 0;
+}
+.about_us{
+	overflow: hidden;
+}
+/*----------plan的动画效果------------*/
+.plan_no .plan_ul{
+	bottom: -720px;
+}
+
+
+
+
+
+
+
+
+
+
+
