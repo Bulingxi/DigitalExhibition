@@ -1,6 +1,7 @@
 $(function(){
 	$.each(plan_ul, function(index,data) {
 		var str=`<li class="plan_li">
+				<a href="html/Scheme.html">
 					<i class="p_pic"><img src="${data.src}"/></i>
 					<div class="plan_pic">
 						<img src="${data.pic1}" class="plan_img" />
@@ -13,8 +14,9 @@ $(function(){
 						<img src="${data.pic2}" class="before_row" />
 						<img src="${data.pic3}" class="after_row" />
 					</div>
+					</a>
 				</a>
-				</li>`
+			</li>`
 			$('.plan_ul').append(str);
 		
 	});
@@ -22,7 +24,7 @@ $(function(){
 	
 	$.each(product_ul,function(index,data){
 		var str=`<li class="product_li">
-					<a href="#" class="pro_li_a" title="${data.title}">
+					<a href="html/Product.html" class="pro_li_a" title="${data.title}">
 						<div class="pro_text">
 							<h2>${data.num}</h2>
 							<h3>${data.name}</h3>

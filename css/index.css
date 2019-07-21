@@ -449,6 +449,8 @@ body{
 .plan_box{
 	width: 100%;
 	height:100%;
+	/*background: yellow;*/
+	/*overflow: hidden;*/
 	/*background: url(../img/bg1.jpg);*/
 }
 .bgpic{
@@ -516,6 +518,9 @@ body{
 	transition-duration: 2s;
 	transition: all 1s linear;
 	float: left;
+}
+.plan_li a:hover{
+	text-decoration: none;
 }
 .plan_li:before{
   content: "";
